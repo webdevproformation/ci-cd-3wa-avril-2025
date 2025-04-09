@@ -20,7 +20,7 @@ pipeline {
                 '''
             }
         }
-        stage('build') {
+        stage('test') {
             agent {
                 docker {
                     image 'node:20-alpine'
